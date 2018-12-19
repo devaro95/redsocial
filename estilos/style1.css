@@ -1,0 +1,421 @@
+/*inicio.php*/
+#escribirPost{
+    width: 460px;
+    height: 250px;
+    margin-top: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 20px 1px rgb(4, 56, 133);
+    font-family:monospace;
+    font-size:17px;
+    border: solid;
+    overflow:hidden;
+}
+#botonEnviarPost{
+    border-radius: 50px; 
+    background-color: rgb(4, 56, 133);
+    color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+#botonBorrarPost{
+    background: none;
+    color: inherit;
+    border: 0;
+    width: 14px; 
+    height: 14px;
+    outline: none;
+}
+#colCentralInicio{
+    float: center;
+    width: 600px;
+    height: 600px;
+    max-width: 600px;
+}
+#nuevosPost{
+    text-align:center; 
+    margin-top:20px; 
+    font-size:30px;
+}
+
+/*perfil.php*/
+body{
+    max-width: 1100px;
+    margin: auto;
+    background: url("../Imagenes/fortniteNavidad.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+}
+#col{
+    display: flex;
+    margin-top:-15px;
+}
+#fotoPerfil{
+    width: 200px;
+    height: 200px;
+    border: solid rgb(234, 190, 63);
+    border-radius: 100px;
+    margin: auto;
+    box-shadow: 0px 0px 20px 1px rgb(234, 190, 63);
+    background-image:url('../Imagenes/BadBunny.jpg'); 
+    background-size: cover;
+}
+#perfilInfo{
+    margin-top: 100px;
+    width: 335px;
+    height: 400px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 15px;
+}
+#perfilInfoPersonal{
+    position: relative;
+    top: 30px;
+}
+#amigosRecientes{
+    margin-right: 10px;
+    float: right;
+    width: 335px;
+    min-width: 235px;
+    height: 400px;
+    margin-left: 10px;
+}
+#colCentral{
+    float: center;
+    width: 600px;
+    height: 600px;
+    max-width: 500px;
+}
+#nombrePerfil{
+    text-align: left;
+    font-size: 30px;
+    margin: 10px;
+}
+#bodyUtilizable{
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.932);
+    border: solid 2px  rgb(141, 141, 141);
+    height: 1000px;
+}
+#botonCambiarPerfil{
+    border-radius: 50px; 
+    background-color: rgb(4, 56, 133);
+    color: white;
+    margin-bottom: -20px;
+    margin-top: -10px;
+}
+#botonCambiarPerfil:hover{
+    background-color: rgb(14, 91, 207);
+}
+#post{
+    border:solid;
+    border-color:black;
+    overflow:hidden;
+    box-shadow: 0px 0px 20px 1px rgb(4, 56, 133);
+    font-family:monospace;
+    margin-bottom: 20px;
+}
+#contenedor{
+    font-size:17px;
+    height:auto; 
+    word-wrap: break-word; 
+    padding: 10px; 
+    margin-left: 10px;
+}
+
+/*index.php*/
+#menuLogin{
+    float: right;
+    border: solid 3px;
+    border-color: rgb(4, 56, 133);
+    border-radius: 20px;
+    margin-top: 266px;
+    background-color: rgba(255, 255, 255, 0.932);
+    text-align: center;
+    padding: 10px;
+}
+#formLogin{
+    margin-top: 10%;
+}
+#barra{
+    padding: 10px;
+}
+#botonEnviar{
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+    color: white;
+    background-color: rgb(4, 56, 133);
+    border-radius: 50px; 
+    font-family: Verdana;
+}
+
+/*signin.php*/
+#menuSignin{
+    float: right;
+    border: solid 5px;
+    border-color: rgb(4, 56, 133);
+    border-radius: 20px;
+    margin-top: 200px;
+    background-color: rgba(255, 255, 255, 0.932);
+    text-align: center;
+    padding: 10px;
+    margin-left: 100px;
+}
+#formSignin{
+    display: flex;
+    margin-top: 10px;
+}
+#botonRegistrar{
+    margin-top: 10px;
+    width: 100px;
+    height: 26px;
+    color: white;
+    background-color: rgb(4, 56, 133);
+    border-radius: 50px; 
+    font-family: Verdana;
+}
+#botonVolver{
+    margin-top: 10px;
+    width: 70px;
+    height: 26px;
+    color: white;
+    background-color: rgb(4, 56, 133);
+    border-radius: 50px; 
+    font-family: Verdana;
+}
+.labelSignin{
+    width:90px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+/*modificarperfil.php*/
+input:focus, textarea:focus {
+    /* Para dar un pequeño destaque en elementos activos*/
+    border-color: #000;
+}
+.login{
+    border-radius: 5px;
+    text-align: left;
+    font-family: Verdana;
+}
+.formDatosPersonales{
+    width:600px; 
+    height:645px; 
+    float:right; 
+    margin-top: 10px; 
+    margin-right: 10px; 
+    text-align: center; 
+    padding: 10px;
+}
+
+/*mensajes.php*/
+#botonAbrirMensaje{
+    border-radius: 50px;
+    height: 40px;
+    background-color: rgb(4, 56, 133); 
+    color:white;
+    display: inline-block;
+}
+#botonAbrirMensaje:hover{
+    background-color: rgb(14, 91, 207);
+}
+#inputMensajes{
+    background: none;
+    border: 0;
+    color: inherit;
+    cursor:hand;
+    margin-top:15px;
+}
+#inputMensajes:hover{
+    color: rgb(4, 56, 133); 
+}
+#trMensajes:hover{
+    background-color: rgba(158, 193, 245, 0.527);
+}
+
+/*perfilamigo.php*/
+#divEnviarMensaje{
+    float: right;
+}
+#botonEnviarMensaje{
+    float: right;
+    background-size: cover;
+    background: none;
+    color: inherit;
+    border: 0; 
+    outline: none;
+    width: 25px;
+    height: 25px;
+}
+
+/*amigos.php*/
+#botonAceptarSolicitud{
+    background: none;
+    color: inherit;
+    border: 0;
+    width: 19px; 
+    height: 19px;
+    outline: none;
+}
+#botonRechazarSolicitud{
+    background: none;
+    color: inherit;
+    border: 0;
+    width: 17px; 
+    height: 17px;
+    outline: none;
+}
+#solicitudAmistad{
+    margin-top: 58.5px;
+    width: 335px;
+    min-height: 950px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 15px;
+}
+/* mostrarMensaje.php */
+#flechaBack{
+    width:30px;
+    margin: auto; 
+    height: 30px; 
+    background-image: url(../Imagenes/atras.png); 
+    transform:rotate(180deg); 
+    background-size: cover;
+}
+.contenidoMensaje{
+    margin: 10px;
+    width:90%; 
+    height: 420px; 
+    border:solid grey 2px; 
+    padding: 10px; 
+    font-size: 16px; 
+}
+.asuntoMensaje{
+    margin: 10px;
+    width:90%;
+    padding: 0px 50px; 
+    height: 40px; 
+    border:solid grey 2px; 
+    font-size: 20px; 
+    font-weight: bold;
+}
+.emisorMensaje{
+    margin: auto;
+    width: 50%; 
+    border:solid grey 2px; 
+    text-align:center; 
+    font-weight:bold; 
+    font-size: 25px;
+}
+.divMensaje{
+    padding: 10px;
+    margin:50px auto;
+    width:90%;
+}
+
+/*clases comunes*/
+.sombraAzul{
+    box-shadow: 0px 0px 20px 1px blue; 
+}
+.sombraNegra{
+    box-shadow: 0px 0px 20px 1px black; 
+}
+.overHid{
+    overflow:hidden;
+}
+.likesPost{
+    float: left;
+    width: 20px; 
+    height: 40px; 
+    margin-top: 10px; 
+    margin-bottom: -10px;
+    margin-left: -5px; 
+    font-size: 15px; 
+    font-family: Arial;
+
+}
+.fechaPost{
+    font-size:10px;
+    float: right;
+    margin-top:20px; 
+    margin-right:10px;
+}
+.nombrePost{
+    font-weight:bold;
+    font-size:19px; 
+    margin-left:10px; 
+    margin-top:10px;
+}
+.contenedorPost{
+    font-size:17px;
+    height:auto; 
+    word-wrap: break-word; 
+    padding: 10px; 
+    margin-left: 15px;
+}
+.imagenLikes{
+    float:left;
+    margin-bottom: -10px;
+    background-image: url(../Imagenes/likes.png); 
+    width: 40px; 
+    height: 40px; 
+    background-size:cover;
+}
+.imagenResponder{
+    float:left;
+    margin-top:8px;
+    margin-right:20px;
+    background-image: url(../Imagenes/responder.png); 
+    width: 25px; 
+    height: 25px; 
+    background-size:cover;
+}
+.imagenBloquear{
+    float:right;
+    margin-top:8px;
+    margin-right:25px;
+    background-image: url(../Imagenes/report.png); 
+    width: 25px; 
+    height: 25px; 
+    background-size:cover;
+}
+.imagenLikesDado{
+    float:left;
+    margin-bottom: -10px;
+    background-image: url(../Imagenes/likesdado.png); 
+    width: 40px; 
+    height: 40px; 
+    background-size:cover;
+}
+.botonAdmin{
+    background: none;
+    color: inherit;
+    border: 0;
+    width: 14px; 
+    height: 14px;
+    outline: none;
+}
+.botonNavegacion{
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(4, 56, 133); 
+    color:white;
+    display: inline-block;
+}
+.botonNavegacion:hover{
+    background-color: rgb(14, 91, 207);
+}
+
+/*administrador.php*/
+#columnaDerechaAdmin{
+    border-right:solid 2px rgba(128, 128, 128, 0.5);
+    margin-top: 100px;
+    width: 335px;
+    height: 400px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 15px;
+}

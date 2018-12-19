@@ -1,0 +1,289 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/*-- reset --*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/*-- start editing from here --*/
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*-- end reset --*/
+#bodyEnviarMensaje {
+    font-family: 'Raleway', sans-serif;
+	background:#5172e7;
+	background:-webkit-linear-gradient(to right, rgb(2, 35, 110), rgb(71, 118, 230)); 
+	background:-webkit-linear-gradient(to right, rgb(2, 35, 110), rgb(71, 118, 230)); 
+	background:-moz-linear-gradient(to right, rgb(2, 35, 110), rgb(71, 118, 230)); 
+	background:-o-linear-gradient(to right, rgb(2, 35, 110), rgb(71, 118, 230)); 
+	background:-ms-linear-gradient(to right, rgb(2, 35, 110), rgb(71, 118, 230)); 
+	background: linear-gradient(to right, rgb(2, 35, 110), rgb(71, 118, 230));
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; 
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+}
+/*-- main --*/
+.main-agileits {
+    padding:2em 0 0;
+}
+.mainw3-agileinfo {
+    width: 50%;
+    margin: 9em auto 3em;
+    background-color: #fff;
+	-webkit-box-shadow: 0px 0px 30px 1px rgb(0, 0, 0);
+	-moz-box-shadow: 0px 0px 30px 1px rgb(0, 0, 0);
+	-o-box-shadow: 0px 0px 30px 1px rgb(0, 0, 0);
+	-ms-box-shadow: 0px 0px 30px 1px rgb(0, 0, 0);
+    box-shadow: 0px 0px 30px 1px rgb(0, 0, 0);
+	padding-left: 1em;
+}
+/*-- contact --*/  
+.contact-w3lsleft {
+    float: right;
+    width: 60%;
+}
+.contact-w3left {
+    float: left;
+    width: 40%;
+	margin-top: -6em;
+}
+.contact-w3left {
+    background: url(../Imagenes/fortniteskin2.png)no-repeat right 0px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover; 
+    background-size: cover;
+    min-height: 550px;
+	float: right;
+}
+.contact-grid.agileits {
+    padding:2.5em;
+} 
+.contact-grid input[type="text"],.contact-grid input[type="email"],.contact-grid textarea {
+    width: 93%;
+    color: rgb(15, 15, 15);
+    background: #fff;
+    outline: none;
+    font-size: 0.9em;
+    padding: .8em 1em;
+    margin-bottom: 1.5em;
+    border: none;
+    border-bottom: solid 1px #ccc;
+    -webkit-appearance: none;
+    font-family: 'Raleway', sans-serif;
+} 
+.contact-grid textarea {
+    resize: none;       
+    min-height:6em;   
+}
+.contact-grid input[type="submit"] {
+    outline: none;
+    color: #fff;
+    padding: .8em 3em;
+    font-size: 0.9em;
+    -webkit-appearance: none;
+    background: #5172e7;
+    border: solid 1px #5172e7; 
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+.contact-grid input[type="submit"]:hover{
+	background: none;
+	color:#5172e7;
+}
+.contact-grid ::-webkit-input-placeholder{
+	color:#999 !important;
+}  
+/*-- //contact --*/  
+/*-- //main --*/
+/*-- copyright --*/
+.w3copyright-agile{
+    margin: 2em 0;
+    text-align: center;
+}
+.w3copyright-agile p {
+    font-size: 1em;
+    color: #fff;
+	line-height:1.8em;
+}
+.w3copyright-agile p a{
+    color: #fff; 
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	transition: 0.5s all;
+}
+.w3copyright-agile p a:hover{
+    color: #000;	
+}
+/*-- //copyright --*/ 
+/*-- responsive-design --*/
+@media(max-width:1440px){
+.mainw3-agileinfo {
+    width: 58%;
+}
+} 
+@media(max-width:1080px){
+.mainw3-agileinfo {
+    width: 71%;
+}
+}
+@media(max-width:1024px){
+.mainw3-agileinfo { 
+    margin: 8em auto 3em;  
+}
+.contact-w3left { 
+    min-height: 528px;
+    margin-top: -5em;
+}
+}
+@media(max-width:991px){
+.mainw3-agileinfo {
+    margin: 7em auto 3em;
+} 
+}
+@media(max-width:800px){
+.mainw3-agileinfo {
+    width: 90%;
+}
+h1 {
+    font-size: 2.5em; 
+}
+} 
+@media(max-width:667px){
+.contact-grid input[type="text"], .contact-grid input[type="email"], .contact-grid textarea { 
+    margin-bottom: 1em; 
+}
+.contact-w3left {
+    min-height: 480px;
+    margin-top: -4em;
+}
+.contact-grid.agileits {
+    padding: 2.5em 2em;
+}
+.contact-grid input[type="text"], .contact-grid input[type="email"], .contact-grid textarea {
+    width: 90%; 
+} 
+}
+@media(max-width:640px){
+.contact-w3left {
+    min-height: 451px;
+    margin-top: -4em;
+}
+.contact-grid textarea { 
+    min-height: 4em;
+}
+}
+@media(max-width:480px){
+.contact-w3lsleft {
+    float: none;
+    width: 100%;
+}
+.contact-w3left {
+    min-height: 280px;
+    margin-top: -5em;
+    margin: -2em 7em 1em;
+}
+.mainw3-agileinfo {
+    margin: 4em auto 2em;
+}
+.contact-grid.agileits {
+    padding: 1.5em 1em 1.5em 0;
+}
+.w3copyright-agile p {
+    font-size: 0.9em; 
+    padding: 0 1em;
+}
+.main-agileits {
+    padding: 1.5em 0 0;
+}
+h1 {
+    font-size: 2.2em;
+}
+}
+@media(max-width:414px){
+.contact-w3left { 
+    margin: -2em 5em 1em;
+    width: 47%;
+}
+}
+@media(max-width:384px){
+.mainw3-agileinfo {
+    margin: 3em auto 2em;
+}
+.contact-grid input[type="text"], .contact-grid input[type="email"], .contact-grid textarea { 
+    font-size: 0.8em; 
+}
+}
+@media(max-width:375px){
+h1 {
+    font-size: 1.8em;
+}
+.contact-w3left {
+    min-height: 240px; 
+	margin: -2em 4.5em 1em;
+}
+}
+@media(max-width:320px){
+.contact-w3left {
+    min-height: 240px;
+    margin: -2em 2.5em 1em;
+}
+.w3copyright-agile p {
+    font-size: 0.8em; 
+}
+}
+#botonVolver{
+    outline: none;
+    color: #fff;
+    padding: .8em 3em;
+    font-size: 0.9em;
+    background: #5172e7;
+    border: solid 1px #5172e7; 
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    }
+#botonVolver:hover{
+    background: none;
+     color:#5172e7;
+    }
+#botonVolver ::-webkit-input-placeholder{
+    color:#999 !important;
+}  
+
+/*-- //responsive-design --*/
